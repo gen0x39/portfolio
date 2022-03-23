@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Contact from './Contact'
+import Background from './Background'
+import Navbar from './Navbar'
+import Skills from './Skills'
+import Works from './Works'
 
 class App extends Component {
     render() {
         return (
-          <>      
-            <h1>Hello TS-React!</h1>
+          <>
+            <Navbar />
+            <Background />
+            <Skills />
+            <Works />
             <Contact />
           </>
         )

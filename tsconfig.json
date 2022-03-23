@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "typeRoots": ["src/types", "node_modules/@types"],
         "target": "es5",
         "module": "es2015",
         "types":["node"],
@@ -15,6 +16,6 @@
         "noImplicitAny": true,
         "jsx": "react",
         "allowSyntheticDefaultImports": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
     }
 }

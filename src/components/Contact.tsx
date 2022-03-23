@@ -34,11 +34,11 @@ const Contact: React.FC = () => {
   const classes = useStyles();
 
   const redirectToTwitter = () => {
-    window.location.href = "https://twitter.com/gen0x39";
+    window.location.href = 'https://twitter.com/gen0x39';
   };
 
   const redirectToGitHub = () => {
-    window.location.href = "https://github.com/gen0x39";
+    window.location.href = 'https://github.com/gen0x39';
   };
 
   return (
@@ -55,12 +55,12 @@ const Contact: React.FC = () => {
               <MailIcon />
             </Avatar>
           </Link>
-          <Link href='#' color='inherit' onClick={redirectToTwitter}>
+          <Link href='https://twitter.com/gen0x39' color='inherit' onClick={redirectToTwitter}>
             <Avatar className={classes.blue}>
               <TwitterIcon />
             </Avatar>
           </Link>
-          <Link href='#' color='inherit' onClick={redirectToGitHub}>
+          <Link href='https://github.com/gen0x39' color='inherit' onClick={redirectToGitHub}>
             <Avatar className={classes.grey}>
               <GitHubIcon />
             </Avatar>
