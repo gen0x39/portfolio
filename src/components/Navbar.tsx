@@ -2,6 +2,7 @@ import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
+import { Link as Scroll } from 'react-scroll'
 
 const Navbar: React.FC = () => {
   return (
@@ -11,17 +12,17 @@ const Navbar: React.FC = () => {
         position='static'
         style={{ alignItems: 'center'}}>
         <Toolbar>
-          <Button>
-            ABOUT
+          <Button color='inherit'>
+            <Scroll to='about' smooth={true} duration={500} offset={-50}>ABOUT</Scroll>
           </Button>
           <Button color='inherit'>
-            SKILLS
+            <Scroll to='skills' smooth={true} duration={500} offset={-50}>SKILLS</Scroll>
           </Button>
           <Button color='inherit'>
-            Works
+            <Scroll to='works' smooth={true} duration={500} offset={-50}>WORKS</Scroll>
           </Button>
           <Button color='inherit'>
-            CONTACT
+            <Scroll to='contact' smooth={true} duration={500} offset={-50}>CONTACT</Scroll>
           </Button>
         </Toolbar>
       </AppBar>

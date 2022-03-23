@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
 
   return (
     <>
-      <Box p={2}>
+      <Box p={2} id='contact'>
         <Box display='flex' justifyContent='center' p={1} >
           <Typography variant='h5' >
             Contact

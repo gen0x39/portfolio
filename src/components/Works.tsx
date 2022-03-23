@@ -26,7 +26,7 @@ const Works: React.FC = () => {
 
   return (
     <>
-      <Box p={2}>
+      <Box p={2} id='works'>
         <Box display='flex' justifyContent='center' p={1} >
           <Typography variant='h5' >
             Works

@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
 
   return (
     <>
-      <Box p={2}>
+      <Box p={2} id='skills'>
         <Box display='flex' justifyContent='center' p={1} >
           <Typography variant='h5' >
             Skills

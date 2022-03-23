@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 const Background: React.FC = () => {
   return (
     <>
-      <Box p={2}>
+      <Box p={2} id='about'>
         <Box display='flex' justifyContent='center' p={1}>
           <Typography variant='h5' >
             About
