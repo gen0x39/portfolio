@@ -41398,6 +41398,7 @@ var App = /** @class */ (function (_super) {
     }
     App.prototype.render = function () {
         return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
+            react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u3066\u3059\u3068\u304A\u304A\uFF01"),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Background__WEBPACK_IMPORTED_MODULE_2__["default"], null),
             react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Contact__WEBPACK_IMPORTED_MODULE_1__["default"], null)));
     };
