@@ -41,6 +41,10 @@ const Contact: React.FC = () => {
     window.location.href = 'https://github.com/gen0x39';
   };
 
+  const redirectToMail = () => {
+    window.location.href = 'mailto:shinji@bbo.cs.tsukuba.ac.jp';
+  };
+
   return (
     <>
       <Box p={2}>
@@ -50,7 +54,7 @@ const Contact: React.FC = () => {
           </Typography>
         </Box>
         <Box className={classes.root} display='flex' justifyContent='center' p={1}>
-          <Link href='#' color='inherit'>
+          <Link href='mailto:shinji@bbo.cs.tsukuba.ac.jp' color='inherit' onClick={redirectToMail}>
             <Avatar className={classes.green}>
               <MailIcon />
             </Avatar>
