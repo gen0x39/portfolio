@@ -25,7 +25,6 @@ const Outputs: React.FC = () => {
           <Card className={classes.root}>
             <CardContent>
               <Typography variant='h6' align='center'>
-                ブログ
                 <Grid container spacing={2}>
                   <Grid item xs={3}> 
                     <OutputCard title='Qiita' comments='Worksの実装の解説' license='a'/>
