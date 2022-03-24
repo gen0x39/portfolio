@@ -1,25 +1,19 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import Card from '@material-ui/core/Card'
-import CardActions from '@material-ui/core/CardActions'
-import CardContent from '@material-ui/core/CardContent'
-import Button from '@material-ui/core/Button'
-import Typography from '@material-ui/core/Typography'
+import { Card, CardContent, Typography } from '@material-ui/core'
+import { grey } from '@material-ui/core/colors'
 
 const useStyles = makeStyles({
-    bullet: {
-      display: 'inline-block',
-      margin: '0 2px',
-      transform: 'scale(0.8)',
-    },
     title: {
       fontSize: 20,
     },
-    pos: {
-      marginBottom: 12,
-    },
     license: {
       fontSize: 2,
+    },
+    custom: {
+        backgroundColor: grey[50], 
+        border: 'none', 
+        boxShadow: 'none'
     },
 });
 
@@ -29,10 +23,10 @@ type Props={
     license:string,
 }
 
-function BodyCard({title, comments, license}:Props) {
+function SkillCard({title, comments, license}:Props) {
     const classes = useStyles();
     return (
-        <Card variant="outlined">
+        <Card variant="outlined" className={classes.custom}>
             <CardContent>
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
                     {title}
@@ -44,11 +38,8 @@ function BodyCard({title, comments, license}:Props) {
                     {license}
                 </Typography>
             </CardContent>
-            <CardActions>
-                <Button size="small">Learn More</Button>
-            </CardActions>
         </Card>
     );
 }
 
-export default BodyCard
+export default SkillCard

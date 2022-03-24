@@ -22,6 +22,9 @@ const Navbar: React.FC = () => {
             <Scroll to='works' smooth={true} duration={500} offset={-50}>WORKS</Scroll>
           </Button>
           <Button color='inherit'>
+            <Scroll to='outputs' smooth={true} duration={500} offset={-50}>OUTPUTS</Scroll>
+          </Button>
+          <Button color='inherit'>
             <Scroll to='contact' smooth={true} duration={500} offset={-50}>CONTACT</Scroll>
           </Button>
         </Toolbar>

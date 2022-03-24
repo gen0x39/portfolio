@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
     <>
       <Box p={2} id='contact'>
         <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
+          <Typography variant='h4' >
             Contact
           </Typography>
         </Box>

@@ -1,11 +1,7 @@
 import React from 'react'
-import BodyCard from './BodyCard'
-import Box from '@material-ui/core/Box'
 import { makeStyles } from '@material-ui/core/styles'
-import { Grid } from '@material-ui/core'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
-import Typography from '@material-ui/core/Typography'
+import { Box, Grid, Card, CardContent, Paper, Typography } from '@material-ui/core'
+import SkillCard from './SkillCard';
 
 const useStyles = makeStyles({
   root: {
@@ -21,39 +17,30 @@ const Skills: React.FC = () => {
     <>
       <Box p={2} id='skills'>
         <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
+          <Typography variant='h4' >
             Skills
           </Typography>
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <Card className={classes.root}>
             <CardContent>
-              <Typography variant="h6">
-                言語
-              </Typography>
-              <Typography color="textSecondary">
-                Python / C / TypeScript / Rust
-              </Typography>
-            </CardContent>
-          </Card>
-        </Box>
-        <Box display='flex' justifyContent='center' p={1} >
-          <Card className={classes.root}>
-            <CardContent>
-              <Typography variant="h6">
+              <Typography variant='h6' align='center'>
                 言語
                 <Grid container spacing={2}>
                   <Grid item xs={3}> 
-                    <BodyCard title='Python' comments='comment' license='Copyright © 2001-2022 Python Software Foundation; All Rights Reserved'/>
+                    <SkillCard 
+                      title='Python' 
+                      comments='3-years' 
+                      license='Copyright © 2001-2022 Python Software Foundation; All Rights Reserved'/>
                   </Grid>
                   <Grid item xs={3}> 
-                    <BodyCard title='C' comments='comment' license='a'/>
+                    <SkillCard title='C' comments='comment' license='a'/>
                   </Grid>
                   <Grid item xs={3}> 
-                    <BodyCard title='TypeScript' comments='comment' license='a'/>
+                    <SkillCard title='TypeScript' comments='comment' license='a'/>
                   </Grid>
                   <Grid item xs={3}> 
-                    <BodyCard title='Rust' comments='comment' license='a'/>
+                    <SkillCard title='Rust' comments='comment' license='a'/>
                   </Grid>
                 </Grid>
               </Typography>
@@ -63,14 +50,17 @@ const Skills: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <Card className={classes.root}>
             <CardContent>
-              <Typography variant="h6">
+              <Typography variant='h6' align='center'>
                 フレームワーク
                 <Grid container spacing={2}>
                   <Grid item xs={3}> 
-                    <BodyCard title='PyTorch' comments='comment' license='a'/>
+                    <SkillCard title='PyTorch' comments='comment' license='a'/>
                   </Grid>
                   <Grid item xs={3}> 
-                    <BodyCard title='React' comments='comment' license='a'/>
+                    <SkillCard title='pytest' comments='comment' license='a'/>
+                  </Grid>
+                  <Grid item xs={3}> 
+                    <SkillCard title='React' comments='comment' license='a'/>
                   </Grid>
                 </Grid>
               </Typography>
@@ -80,14 +70,14 @@ const Skills: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <Card className={classes.root}>
             <CardContent>
-              <Typography variant="h6">
+              <Typography variant='h6' align='center'>
                 資格
                 <Grid container spacing={2}>
                   <Grid item xs={3}> 
-                    <BodyCard title='TOEIC 660' comments='comment' license=''/>
+                    <SkillCard title='TOEIC 660' comments='comment' license=''/>
                   </Grid>
                   <Grid item xs={3}> 
-                    <BodyCard title='第二級陸上無線技術師' comments='comment' license=''/>
+                    <SkillCard title='第二級陸上無線技術師' comments='comment' license=''/>
                   </Grid>
                 </Grid>
               </Typography>

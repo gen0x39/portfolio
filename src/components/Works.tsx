@@ -28,20 +28,20 @@ const Works: React.FC = () => {
     <>
       <Box p={2} id='works'>
         <Box display='flex' justifyContent='center' p={1} >
-          <Typography variant='h5' >
+          <Typography variant='h4' >
             Works
           </Typography>
         </Box>
         <Box display='flex' justifyContent='center' p={1} >
           <List className={classes.root}>
-            <ListItem>
+          <ListItem>
               <ListItemLink href='#'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work1' secondary='Work1です。' />
+                <ListItemText primary='Title' secondary='概略+試用技術+code icons+DEV or DONE' />
               </ListItemLink>
             </ListItem>
             <ListItem>
@@ -51,7 +51,7 @@ const Works: React.FC = () => {
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work2' secondary='Work2です。' />
+                <ListItemText primary='将棋AI' secondary='PyToch pytest' />
               </ListItemLink>
             </ListItem>
             <ListItem>
@@ -61,7 +61,27 @@ const Works: React.FC = () => {
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Work3' secondary='Work3です。' />
+                <ListItemText primary='Slack bot' secondary='Python pytest Heroku ' />
+              </ListItemLink>
+            </ListItem>
+            <ListItem>
+              <ListItemLink href='#'>
+                <ListItemAvatar>
+                  <Avatar>
+                    <FolderIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary='Twieasy' secondary='JS React' />
+              </ListItemLink>
+            </ListItem>
+            <ListItem>
+              <ListItemLink href='#'>
+                <ListItemAvatar>
+                  <Avatar>
+                    <FolderIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary='Game engine for GBA' secondary='Rust' />
               </ListItemLink>
             </ListItem>
           </List>

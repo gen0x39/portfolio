@@ -1,18 +1,20 @@
 import React, { Component } from 'react'
 import Contact from './Contact'
-import Background from './Background'
+import About from './About'
 import Navbar from './Navbar'
 import Skills from './Skills'
 import Works from './Works'
+import Outputs from './Outputs'
 
 class App extends Component {
     render() {
         return (
           <>
             <Navbar />
-            <Background />
+            <About />
             <Skills />
             <Works />
+            <Outputs />
             <Contact />
           </>
         )
