@@ -47652,7 +47652,6 @@ var Outputs = function () {
                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], { className: classes.root },
                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], null,
                         react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], { variant: 'h6', align: 'center' },
-                            "\u30D6\u30ED\u30B0",
                             react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], { container: true, spacing: 2 },
                                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], { item: true, xs: 3 },
                                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OutputsCard__WEBPACK_IMPORTED_MODULE_1__["default"], { title: 'Qiita', comments: 'Works\u306E\u5B9F\u88C5\u306E\u89E3\u8AAC', license: 'a' })),
