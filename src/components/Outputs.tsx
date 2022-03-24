@@ -33,6 +33,9 @@ const Outputs: React.FC = () => {
                   <Grid item xs={3}> 
                     <OutputCard title='はてな' comments='数式はこっちで管理' license='a'/>
                   </Grid>
+                  <Grid item xs={3}> 
+                    <OutputCard title='ブクログ' comments='読んだ本の管理' license='a'/>
+                  </Grid>
                 </Grid>
               </Typography>
             </CardContent>
