@@ -47657,7 +47657,9 @@ var Outputs = function () {
                                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], { item: true, xs: 3 },
                                     react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OutputsCard__WEBPACK_IMPORTED_MODULE_1__["default"], { title: 'Qiita', comments: 'Works\u306E\u5B9F\u88C5\u306E\u89E3\u8AAC', license: 'a' })),
                                 react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], { item: true, xs: 3 },
-                                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OutputsCard__WEBPACK_IMPORTED_MODULE_1__["default"], { title: '\u306F\u3066\u306A', comments: '\u6570\u5F0F\u306F\u3053\u3063\u3061\u3067\u7BA1\u7406', license: 'a' }))))))))));
+                                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OutputsCard__WEBPACK_IMPORTED_MODULE_1__["default"], { title: '\u306F\u3066\u306A', comments: '\u6570\u5F0F\u306F\u3053\u3063\u3061\u3067\u7BA1\u7406', license: 'a' })),
+                                react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], { item: true, xs: 3 },
+                                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(_OutputsCard__WEBPACK_IMPORTED_MODULE_1__["default"], { title: '\u30D6\u30AF\u30ED\u30B0', comments: '\u8AAD\u3093\u3060\u672C\u306E\u7BA1\u7406', license: 'a' }))))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Outputs);
 
